@@ -1,0 +1,50 @@
+all:
+  postgres:
+    host: 127.0.0.1
+    database: cdg_pg
+    adminPort: 15432
+    sessionPort: 6432
+    transactionPort: 5432
+    properties:
+      loginTimeout: 10
+      socketTimeout: 5
+    app:
+      user: cdg_dev
+      pass: cdg_dev
+    dba:
+      user: cdg_dev
+      pass: cdg_dev
+
+development:
+  postgres:
+    host: 127.0.0.1
+    database: cdg_pg
+    adminPort: 15432
+    sessionPort: 6432
+    transactionPort: 5432
+    properties:
+      loginTimeout: 10
+      socketTimeout: 5
+    app:
+      user: cdg_dev
+      pass: cdg_dev
+    dba:
+      user: cdg_dev
+      pass: cdg_dev
+
+production:
+  postgres:
+    host: 127.0.0.1
+    database: cdg_pg
+    adminPort: 15432
+    sessionPort: 6432
+    transactionPort: 5432
+    properties:
+      loginTimeout: 10
+      socketTimeout: 5
+    app:
+      user: cdg_dev
+      pass: cdg_dev
+    dba:
+      user: cdg_dev
+      pass: cdg_dev
